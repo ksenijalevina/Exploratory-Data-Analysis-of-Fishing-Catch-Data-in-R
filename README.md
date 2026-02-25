@@ -39,6 +39,7 @@ The following graphs were visualized:
 * Log distribution of fish catch
 * Number of trips by time of day
 * Log CPUE by Time of day
+
 Logarithmization is necessary because There are a lot of small values ​​and a few large values.
 All plots are saved in 'figures' folder
 ---
