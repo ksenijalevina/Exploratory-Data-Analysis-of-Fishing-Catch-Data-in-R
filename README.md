@@ -48,5 +48,5 @@ All plots are saved in 'figures' folder
 * The most fishing trips occur during morning and less afternoon
 * The highest CPUE appears at night.
 * Most fishing trips result in average catches, while very large catches are quite rare.
-* 
+
 The analysis highlights how efficiency indicators can provide deeper insights than raw catch volumes alone.
