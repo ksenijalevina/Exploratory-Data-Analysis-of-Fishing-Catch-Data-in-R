@@ -1,13 +1,13 @@
 # r-fishing-catch-analysis
-Exploratory data analaysis of fishing catch using R
+Exploratory data analysis of fishing catch using R
 
 
 # Fishing Catch Efficiency Analysis
 
-This project analyzes fishing catch efficiency during the year 2020 in Lithuania by colculating and examining  the CPUE (Catch Per Unit Effort).
+This project analyzes fishing catch efficiency during the year 2020 in Lithuania by calculating and examining  the CPUE (Catch Per Unit Effort).
 CPUE was calculated busing this formula:
   * CPUE = caught quantity/fishing effort (hour) *
-This analysis includes data cleaning, analysis (using function, and looking for important aspects), data visualization.
+This analysis includes data cleaning, analysis (using functions, and looking for important aspects), data visualization.
 
 ---
 ## Tools
@@ -16,13 +16,13 @@ RStudio
 ---
 ## Data source
 Data source: https://data.gov.lt/datasets/2877/?resource_version=472#info
-(from official Lithuanian open data portal)
+(from the official Lithuanian open data portal)
 
 ---
 ## Data Cleaning
-The following steps was performed:
+The following steps were performed:
 * removed unnecessary columns
-* converted date-time/logical columns
+* converted date-time and logical columns
 * extracted year, month from fishing start time
 * calculated CPUE
 
@@ -45,8 +45,8 @@ All plots are saved in 'figures' folder
 ---
 ## Key Insights
 * The CPUE distribution is asymmetric, right-skewed.
-* Logarithmization helps better interpretate plots
-* The most fishing trips occur during morning and less afternoon
+* Logarithmization helps better interpret the  plots
+* The highest number of fishing trips is observed in the morning, with fewer trips recorded in the afternoon.
 * The highest CPUE appears at night.
 * Most fishing trips result in average catches, while very large catches are quite rare.
 
