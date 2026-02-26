@@ -38,14 +38,15 @@ The following graphs were visualized:
 * Log CPUE distribution
 * Log distribution of fish catch
 * Number of trips by time of day
-* Log CPUE by Time of day
-
+* Log CPUE by Time of da
+  
 Logarithmization is necessary because there are a lot of small values ​​and a few large values.
 All plots are saved in 'figures' folder
+
 ---
 ## Key Insights
 * The CPUE distribution is asymmetric, right-skewed.
-* Logarithmization helps better interpret the  plots.
+* Logarithmization helps to better interpret the  plots.
 * The highest number of fishing trips is observed in the morning, fewer occur in the afternoon.
 * The highest CPUE appears at night.
 * Most fishing trips result in average catches, while very large catches are quite rare.
